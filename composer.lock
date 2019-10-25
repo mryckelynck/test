@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa503b104f700e4337a4bf209a56bc8a",
+    "content-hash": "7204a10dc10593fc6b99c60f020d73a4",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -843,6 +843,62 @@
             "time": "2019-08-30T09:56:44+00:00"
         },
         {
+            "name": "mouf/nodejs-installer",
+            "version": "v1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/nodejs-installer.git",
+                "reference": "e9bc2e7c75665913dd73dc4765b40757e6796ee8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/e9bc2e7c75665913dd73dc4765b40757e6796ee8",
+                "reference": "e9bc2e7c75665913dd73dc4765b40757e6796ee8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0.0",
+                "ext-openssl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Mouf\\NodeJsInstaller\\NodeJsPlugin"
+                ],
+                "mouf": {
+                    "logo": "node-js.png"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mouf\\NodeJsInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Négrier",
+                    "email": "d.negrier@thecodingmachine.com",
+                    "homepage": "http://mouf-php.com"
+                }
+            ],
+            "description": "An installer package that let's you install NodeJS and NPM as a Composer dependency.",
+            "homepage": "http://mouf-php.com/packages/mouf/nodejs-installer",
+            "keywords": [
+                "installer",
+                "nodejs",
+                "npm"
+            ],
+            "time": "2018-04-16T16:03:09+00:00"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "2.25.3",
             "source": {
@@ -1167,16 +1223,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1241,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1210,7 +1266,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-10-25T08:06:51+00:00"
         },
         {
             "name": "psr/simple-cache",
